@@ -1,13 +1,13 @@
 class UsersController < ApplicationController
 
     def index
-        @users = User.All
+        @users = User.all
         render json: @users
     end
 
     def show
         @user = User.find(params[:id])
-        render json: @user
+        render json: UserSerializer.new(@user)
     end
 
     def create

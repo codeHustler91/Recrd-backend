@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # users
-  get '/all_users', to: 'users#index', as: 'users'
+  get '/users', to: 'users#index', as: 'users'
   get '/users/:id', to: 'users#show', as: 'user'
   post '/users/:id', to: 'users#create', as: 'new_user'
 
