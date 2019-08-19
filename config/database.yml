@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: RecrdApp_production
-  username: RecrdApp
-  password: <%= ENV['RECRDAPP_DATABASE_PASSWORD'] %>
+  database: d2995mu2ugqkiv
+  username: mfkwidngnkbxhg
+  password: 245e2da55c6e19f4f1bec7dabd8c4206ffe4b4cd943c129b9ab4a3f37e803156
