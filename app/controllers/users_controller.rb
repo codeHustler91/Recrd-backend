@@ -15,6 +15,12 @@ class UsersController < ApplicationController
         render json: @user
     end
 
+    def update
+        @user = User.find(params[:id])
+        @user.update(allowed_params)
+        render json: @user
+    end
+
     private
     def allowed_params
         params.require(:user).permit(:name, :theme)

@@ -21,7 +21,7 @@ class AttemptsController < ApplicationController
 
     private
     def allowed_params
-        params.require(:attempt).permit(:duration)
+        params.require(:attempt).permit(:duration, :task_id)
     end
 
 end
