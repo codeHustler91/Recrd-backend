@@ -1,7 +1,7 @@
 class AttemptsController < ApplicationController
 
     def index
-        @attempts = Attempt.All
+        @attempts = Attempt.all
         render json: @attempts
     end
 
