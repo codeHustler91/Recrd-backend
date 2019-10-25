@@ -12,7 +12,7 @@ class UsersController < ApplicationController
 
     def create
         @user = User.create(allowed_params)
-        render json: @user
+        render json: UserSerializer.new(@user)
     end
 
     def update
