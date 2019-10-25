@@ -12,7 +12,7 @@ class AttemptsController < ApplicationController
 
     def create
         @attempt = Attempt.create(allowed_params)
-        render json: @attempt
+        render json: UserSerializer.new(@attempt)
     end
 
     def destroy
