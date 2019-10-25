@@ -18,7 +18,7 @@ class UsersController < ApplicationController
     def update
         @user = User.find(params[:id])
         @user.update(allowed_params)
-        render json: @user
+        render json: UserSerializer.new(@user)
     end
 
     private
