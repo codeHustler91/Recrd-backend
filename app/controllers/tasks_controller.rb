@@ -12,7 +12,7 @@ class TasksController < ApplicationController
 
     def create
         @task = Task.create(allowed_params)
-        render json: UserSerializer.new(@task)
+        render json: @task
     end
 
     def update
