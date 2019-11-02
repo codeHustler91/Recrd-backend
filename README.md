@@ -1,23 +1,29 @@
-### API
+### RECRD API
 
 This RESTful API backend is built with Ruby on Rails, hosted on Heroku
 
-[RECRD full site](https://recrd-react-front-end.firebaseapp.com/)
+   * [RECRD full site](https://recrd-react-front-end.firebaseapp.com/)
 
-User's information was serialized using Netflix's FastJson
+   * [Front End GitHub](https://github.com/codeHustler91/Recrd)
 
-[User Profile Object](https://recrd-rails-backend.herokuapp.com/users/32) 
+##### User's information was serialized using Netflix's FastJson
+
+   * [User Profile Object](https://recrd-rails-backend.herokuapp.com/users/32) 
 includes information on user's tasks, and each attempt per task
 
-[All Users](https://recrd-rails-backend.herokuapp.com/users/)
+##### Routes
 
-[All Tasks](https://recrd-rails-backend.herokuapp.com/tasks/)
+   * [All Users](https://recrd-rails-backend.herokuapp.com/users/)
 
-[All Attempts](https://recrd-rails-backend.herokuapp.com/attempts/)
+   * [All Tasks](https://recrd-rails-backend.herokuapp.com/tasks/)
+
+   * [All Attempts](https://recrd-rails-backend.herokuapp.com/attempts/)
 
 ### Model
 
-   | User |---------<| Tasks |----------<| Attempts |
+   User ---------< Tasks ----------< Attempts
+   
+   User has many tasks, tasks have many attempts
 
 ### Assets used:
    * Ruby
@@ -25,7 +31,6 @@ includes information on user's tasks, and each attempt per task
    * ActiveRecord
    * Postgresql
    * Fast JSON API
-   * Rake
 
 #### Credits
    * Deployment : thanks to Heroku for hosting
