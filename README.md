@@ -1,6 +1,6 @@
 ### RECRD API
 
-This RESTful API backend is built with Ruby on Rails, hosted on Heroku
+This RESTful API backend is built with Ruby on Rails, hosted by Heroku
 
    * [RECRD full site](https://recrd-react-front-end.firebaseapp.com/)
 
