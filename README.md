@@ -1,4 +1,4 @@
-### RECRD API
+## RECRD API
 
 This RESTful API backend is built with Ruby on Rails, hosted by Heroku
 
@@ -6,12 +6,12 @@ This RESTful API backend is built with Ruby on Rails, hosted by Heroku
 
    * [Front End GitHub](https://github.com/codeHustler91/Recrd)
 
-##### User's information was serialized using Netflix's FastJson
+User's information was serialized using Netflix's FastJson
 
    * [User Profile Object](https://recrd-rails-backend.herokuapp.com/users/32) 
 includes information on user's tasks, and each attempt per task
 
-##### Routes
+#### Routes
 
    * [All Users](https://recrd-rails-backend.herokuapp.com/users/)
 
@@ -25,7 +25,7 @@ includes information on user's tasks, and each attempt per task
    
    User has many tasks, tasks have many attempts
 
-### Assets used:
+### Assets
    * Ruby
    * Sinatra
    * ActiveRecord
@@ -37,4 +37,4 @@ includes information on user's tasks, and each attempt per task
       * [link to Heroku!](https://www.heroku.com)
    * Serialization : thanks to Fast JSON API
       * [link to FastJson!](https://github.com/Netflix/fast_jsonapi)
-   * Thanks to Flatiron Schools for guided support
+   * Thanks to Flatiron School for guided support
