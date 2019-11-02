@@ -15,9 +15,9 @@ includes information on user's tasks, and each attempt per task
 
    * [All Users](https://recrd-rails-backend.herokuapp.com/users/)
 
-   * [All Tasks](https://recrd-rails-backend.herokuapp.com/tasks/)
+   * [All Tasks](https://recrd-rails-backend.herokuapp.com/all_tasks/)
 
-   * [All Attempts](https://recrd-rails-backend.herokuapp.com/attempts/)
+   * [All Attempts](https://recrd-rails-backend.herokuapp.com/all_attempts/)
 
 ### Model
 
