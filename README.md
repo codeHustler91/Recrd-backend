@@ -2,7 +2,7 @@
 
 This RESTful API backend is built with Ruby on Rails, hosted on Heroku
 
-[link to full site](https://recrd-react-front-end.firebaseapp.com/)
+[RECRD full site](https://recrd-react-front-end.firebaseapp.com/)
 
 User's information was serialized using Netflix's FastJson
 
